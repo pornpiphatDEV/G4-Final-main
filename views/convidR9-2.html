@@ -19,7 +19,7 @@
     <h1 class="text-center headline mt-5">รายงานสถานการณ์ COVID-19 ระลอก 1 ถึงระลอก 2 (ตั้งแต่ 12/01/2020 – 31/03/2021)
         แยกตามรายจังหวัด</h1>
     <hr>
-    
+
     <div class="spinner-border text-primary text-center" role="status" id="relodedata">
         <span class="sr-only">Loading...</span>
     </div>
@@ -30,12 +30,8 @@
                     <input type="date" id="birthday" name="birthday">
                 </div>
                 <div class="col align-self-center">
-
-
                 </div>
                 <div class="col align-self-end">
-
-
                     <div class="input-group">
                         <select class="custom-select" id="provinceTH">
                             <option value="" selected> เลือกจังหวัด ---------</option>
@@ -311,17 +307,5 @@
         document.getElementById('total_case').innerHTML = searchcovid19data.total_case;
         document.getElementById('total_case_excludeabroad').innerHTML = searchcovid19data.total_case_excludeabroad;
         document.getElementById('total_death').innerHTML = searchcovid19data.total_death;
-
     }
-
-
-
-
-
-
-
-
-
-
-
 </script>
